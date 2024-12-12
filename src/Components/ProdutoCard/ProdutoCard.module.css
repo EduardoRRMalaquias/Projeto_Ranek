@@ -1,0 +1,17 @@
+.linkProduto {
+  transition: transform 0.3s ease;
+}
+
+.linkProduto:hover {
+  transform: scale(1.05);
+}
+
+.imgProduto {
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.nomeProduto {
+  color: var(--cor-01);
+  margin-top: 16px;
+}

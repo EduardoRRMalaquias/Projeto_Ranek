@@ -1,7 +1,7 @@
 // import React from 'react';
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Header from './Header/Header.jsx';
+import Header from './Components/Header/Header.jsx';
 import Produtos from './Produtos/Produtos.jsx';
 import Contato from './Contato/Contato.jsx';
 import Produto from './Produto/Produto.jsx';
