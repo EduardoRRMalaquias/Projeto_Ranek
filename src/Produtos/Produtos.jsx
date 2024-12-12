@@ -12,7 +12,7 @@ const Produtos = () => {
   }, []);
 
   return (
-    <section className="container">
+    <article className="container">
       <ul className={estilos.listaProdutos}>
         {produtos.map(({ id, fotos, nome }) => (
           <li key={id}>
@@ -25,7 +25,7 @@ const Produtos = () => {
           </li>
         ))}
       </ul>
-    </section>
+    </article>
   );
 };
 
