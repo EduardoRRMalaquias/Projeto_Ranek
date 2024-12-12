@@ -1,0 +1,31 @@
+:root {
+  --cor-00: #ececec;
+  --cor-01: rgb(27, 27, 27);
+  --cor-p: #0079b6;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul,
+menu {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
