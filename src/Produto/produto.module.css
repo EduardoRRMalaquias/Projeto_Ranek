@@ -1,0 +1,51 @@
+.produto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+.produto figure {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.informacoes {
+  padding: 16px;
+}
+
+.informacoes h1 {
+  margin-bottom: 16px;
+}
+
+.informacoes span {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  color: green;
+  background-color: lawngreen;
+  padding: 8px;
+  border-radius: 4px;
+  margin: 4px 0;
+}
+
+.informacoes p {
+  margin: 16px 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.loading {
+  border: 10px solid var(--cor-p);
+  border-radius: 100%;
+  border-top: 10px solid transparent;
+  width: 48px;
+  height: 48px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg); /* Começa em 0 graus */
+  }
+  to {
+    transform: rotate(360deg); /* Finaliza em 360 graus */
+  }
+}
