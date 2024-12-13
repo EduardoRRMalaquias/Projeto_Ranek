@@ -49,3 +49,14 @@
     transform: rotate(360deg); /* Finaliza em 360 graus */
   }
 }
+
+@media (max-width: 460px) {
+  .produto {
+    grid-template-columns: 1fr;
+  }
+
+  .informacoes {
+    grid-column: 1;
+    grid-row: 1;
+  }
+}
