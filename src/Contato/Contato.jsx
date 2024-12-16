@@ -1,10 +1,15 @@
 // import React from 'react'
+import Head from '../Components/Head';
 import foto from '../img/contato.jpg';
 import estilos from './Contato.module.css';
 
 const Contato = () => {
   return (
-    <article className={`container ${estilos.contato}`}>
+    <article className={`container animeLeft ${estilos.contato}`}>
+      <Head
+        title="Contato"
+        description="Entre em contato conosco, atendimento na hora"
+      />
       <figure>
         <img src={foto} alt="Maquina de escrever" />
       </figure>

@@ -1,0 +1,23 @@
+.footer {
+  height: 8rem;
+  background-color: var(--cor-p);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.footer p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  color: #caffff;
+}
+
+.footer a {
+  color: inherit;
+}
+.footer a:hover {
+  text-decoration: underline;
+  color: white;
+  font-weight: bold;
+}

@@ -7,7 +7,7 @@ const Header = () => {
       <nav className="container">
         <menu className={estilos.menu}>
           <li>
-            <NavLink className={estilos.navLink} to="/">
+            <NavLink className={estilos.navLink} to="/" end>
               Produtos
             </NavLink>
           </li>

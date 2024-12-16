@@ -4,9 +4,9 @@
   gap: 32px;
 }
 
-.produto figure {
+.produto figure img {
   border-radius: 8px;
-  overflow: hidden;
+  margin-bottom: 16px;
 }
 
 .informacoes {
